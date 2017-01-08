@@ -1,0 +1,33 @@
+			.signDiv{height:250px; width:250px;background-color:white;margin:10% 40%;}
+			.container{height:550px; width:450px; background-color:#D3D3D3;margin-left:30%;}
+			.signout{background-color:#D60202;border:0;padding:10px 20px;color:#FFF; font-size:16px;font-weight:normal;float:right;text-decoration:none;}
+			.container_header{ height:40px; width:inherit; position: absolute;}
+			.todo_container{ margin-top:45px; margin-right: 25px; margin-left: 25px; height:480px; width:400px; background-color:white;position: absolute;}
+		  .container_title{margin: 10px; position: absolute;}
+      ::-webkit-input-placeholder { 
+        color: #D3D3D3;
+        font-style: italic;
+      }
+      .text_cls{width:370px;margin:15px;height:50px;font-size:24px;border-radius:2px;padding:3px;}
+      .li_style{list-style-type:none;  text-align: center;width: 370px; height: 40px;}
+      .li_style li{display: inline-block;padding: 0px;width: 300px; border-bottom: 2px solid grey; height: 40px; vertical-align: middle;line-height: 40px; position: relative;float: left;margin-bottom: 12px;}
+      .delete_cls{float:right;margin:8px;width:15px;}
+      .list_cls{width:370px;height:370px;margin:0px; overflow-y:scroll; overflow-x:hidden; }
+
+      input[type="checkbox"] {
+        display:inline-block;
+        width:19px;
+        height:19px;
+        margin:8px 0px 4px 15px;
+        vertical-align:middle;
+        background:url(assets/image/unchecked_icon.png) left top no-repeat;
+        cursor:pointer;
+        float: left;
+    }
+    input[type="checkbox"]:checked {
+        background:url(assets/image/checked_icon.png) -19px top no-repeat;
+    }
+    .list_text{
+      font-size: 18px;
+      font-weight: bold;
+    }
