@@ -26,7 +26,7 @@
             <ul class="li_style"
             </ul>
           </div>
-           <span id="item_cnt"></span> Items Left
+           <span id="item_cnt">0</span> Items Left
           <div class='clone_li' style="display:none;">
                 <li> 
                   <input type="checkbox" name="check_list" class='cls_check' value='1' > 

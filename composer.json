@@ -1,0 +1,16 @@
+{
+    "name": "selva/todochecklist",
+    "description": "To have a ToDo checklist for my reference",
+    "type": "project",
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "Selvakumar",
+            "email": "loginselva@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

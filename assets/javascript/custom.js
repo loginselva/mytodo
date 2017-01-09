@@ -75,6 +75,10 @@ function signOut() {
 }
   
   $(document).ready(function(){
+
+    $('#text_cls').bind('change focus blur keyup keypress', function(event) { 
+      $(this).val($(this).val().replace(/[^A-Za-z0-9_-\s]/, ''));
+  });
    
   $('#text_cls').bind('keyup', function(e) {  
     var me = $(this);

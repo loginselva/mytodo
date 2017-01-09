@@ -42,7 +42,7 @@ Class sample_controller{
 
 	public function add($req){
 		$userprofile = $_SESSION['userprofile'];
-		$list_item = preg_replace("/[^0-9a-zA-Z]+/", '', $req['val']); 
+		$list_item = preg_replace("/[^0-9a-zA-Z\s]+/", '', $req['val']); 
 		$this->db_handle->query("INSERT INTO my_users_todo(user_id, list_name, action) VALUES(".$userprofile['user_id'].", '".$list_item."', 'I') ");
 		return "added";
 	}
