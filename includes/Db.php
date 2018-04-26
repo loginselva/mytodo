@@ -2,7 +2,7 @@
 
 Class Db{
 
-	protected static $connection;
+	protected static $connection; //test
 
 	public function connect() { 
 		if(!isset(self::$connection)) { 
